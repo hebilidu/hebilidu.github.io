@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My IT museum (with CSS)</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section>
+    <h2>My IT museum (with CSS)</h2>
+    <div class="boxmodel">
+      <p class="desc">HP-34C programmable pocket calculator</p>
+      <img src="https://www.thimet.de/CalcCollection/Calculators/HP-34C/HP-34C-M.JPG" width="120">
+    </div>
+    <div class="boxmodel">
+      <p class="desc">Sinclair ZX-81 personal computer</p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Sinclair-ZX81.png/1200px-Sinclair-ZX81.png" width="200">
+    </div>
+    <div class="boxmodel">
+      <p class="desc">HP-41C programmable pocket calculator</p>
+      <img src="https://www.thimet.de/CalcCollection/Calculators/HP-41/HP-41CX-S.JPG" width="120">
+    </div>
+    <div class="boxmodel">
+      <p class="desc">Sinclair Spectrum personal computer</p>
+      <img src="https://i.huffpost.com/gen/2363688/images/o-ZX-SPECTRUM-facebook.jpg" width="200">
+    </div>
+    <div class="boxmodel">
+        <p class="desc">HP-15C programmable pocket calculator</p>
+        <img src="https://www.thimet.de/CalcCollection/Calculators/HP-15C/HP-15C-M.JPG" width="200">
+    </div>
+    <div class="boxmodel">
+        <p class="desc">Atari ST-1040 personal computer</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Atari_1040STf.jpg" width="200">
+    </div>
+    <div class="boxmodel">
+        <p class="desc">DEC PDP 11/32 minicomputer</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Pdp-11-40.jpg" width="120">
+    </div>
+    <div class="boxmodel">
+        <p class="desc">DEC VAX-11/780 superminicomputer</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/VAX_11-780_intero.jpg" width="125">
+    </div>
+    <div class="boxmodel">
+        <p class="desc">IBM PC AT</p>
+        <img src="http://www.vintage-computer.com/images/ibmpcat.jpg" width="150">
+    </div>
+    <div class="boxmodel">
+        <p class="desc">IBM 3090 mainframe</p>
+        <img src="http://www.chilton-computing.org.uk/ccd/jpgs/3090jpgs/3090_33.jpg" width="195">
+    </div>
+    <div class="boxmodel">
+        <p class="desc">Playstation 1 console</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/PSX-Console-wController.png" width="200">
+    </div>
+    <div class="boxmodel">
+        <p class="desc">Palm Pilot personal assistant</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Palm-IMG_7025.jpg" width="110">
+    </div>
+    <div class="boxmodel">
+        <p class="desc">Nokia 9110 Communicator</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/Nokia-9110-2.jpg" width="200">
+    </div>
+    <div class="boxmodel">
+        <p class="desc">Playstation 2 console</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/PS2-Versions.jpg" width="170">
+    </div>
+    <div class="boxmodel">
+        <p class="desc">iPad 2</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/IPad_3.png" width="130">
+    </div>
+    <div class="boxmodel">
+        <p class="desc">Nitendo Wii console</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/14/Wii-console.jpg" width="160">
+    </div>
+    <div class="boxmodel">
+        <p class="desc">iPhone 4S</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d2/IPhone_4S_No_shadow.png" width="100">
+    </div>
+    <div class="boxmodel">
+        <p class="desc">iPad Air 2</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/IPad_Air_2.png" width="110">
+    </div>
+    <div class="boxmodel">
+        <p class="desc">Raspberry Pi 3</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Raspberry_Pi_3_Model_B.JPG" width="200">
+    </div>
+    <div class="boxmodel">
+        <p class="desc">iPhone 5</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/IPhone_5.png" width="90">
+    </div>
+    <div class="boxmodel">
+        <p class="desc">Raspberry Pi 4</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Raspberry_Pi_4_Model_B_-_Side.jpg" width="200">
+    </div>
+    <div class="boxmodel">
+        <p class="desc">iPhone 8</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/IPhone_8_vector.svg" width="80">
+    </div>
+  </section>
+  <footer>
+    <button onclick="topFunction()" id="myBtn" title="Back to top">Top</button>
+    <p>Copyright 2021 lidu</p>
+  </footer>
+   <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+</html>

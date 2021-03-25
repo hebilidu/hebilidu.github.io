@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My IT museum</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to my IT museum</h1>
+    </header>
+    <nav>
+    	<a href="index.html">
+        <h2>Go Back</h2>
+    	</a>
+    </nav>
+    <ul>
+        <li>HP-34C programmable pocket calculator</li>
+        <img src="https://www.thimet.de/CalcCollection/Calculators/HP-34C/HP-34C-M.JPG" width="200">
+        <li>Sinclair ZX-81 personal computer</li>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Sinclair-ZX81.png/1200px-Sinclair-ZX81.png" width="300">
+        <li>HP-41C programmable pocket calculator</li>
+        <img src="https://www.thimet.de/CalcCollection/Calculators/HP-41/HP-41CX-S.JPG" width="200">
+        <li>Sinclair Spectrum personal computer</li>
+        <img src="https://i.huffpost.com/gen/2363688/images/o-ZX-SPECTRUM-facebook.jpg" width="300">
+        <li>HP-15C programmable pocket calculator</li>
+        <img src="https://www.thimet.de/CalcCollection/Calculators/HP-15C/HP-15C-M.JPG" width="200">
+        <li>Atari ST-1040 personal computer</li>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Atari_1040STf.jpg" width="300">
+        <li>DEC PDP 11/32 minicomputer</li>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Pdp-11-40.jpg" width="200">
+        <li>DEC VAX-11/780 superminicomputer</li>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/VAX_11-780_intero.jpg" width="300">
+        <li>IBM PC AT</li>
+        <img src="http://www.vintage-computer.com/images/ibmpcat.jpg" width="300">
+        <li>IBM 3090 mainframe</li>
+        <img src="http://www.chilton-computing.org.uk/ccd/jpgs/3090jpgs/3090_33.jpg" width="300">
+        <li>Playstation 1 console</li>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/PSX-Console-wController.png" width="300">
+        <li>Palm Pilot personal assistant</li>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Palm-IMG_7025.jpg" width="200">
+        <li>Nokia 9110 Communicator</li>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/Nokia-9110-2.jpg" width="200">
+        <li>Playstation 2 console</li>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/PS2-Versions.jpg" width="200">
+        <li>iPad 2</li>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/IPad_3.png" width="200">
+        <li>Nitendo Wii console</li>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/14/Wii-console.jpg" width="200">
+        <li>iPhone 4S</li>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d2/IPhone_4S_No_shadow.png" width="200">
+        <li>iPad Air 2</li>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/IPad_Air_2.png" width="200">
+        <li>Raspberry Pi 3</li>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Raspberry_Pi_3_Model_B.JPG" width="200">
+        <li>iPhone 5</li>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/IPhone_5.png" width="200">
+        <li>Raspberry Pi 4</li>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Raspberry_Pi_4_Model_B_-_Side.jpg" width="200">
+        <li>iPhone 8</li>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/IPhone_8_vector.svg" width=200>
+    </ul>
+    <footer>
+        <button onclick="topFunction()" id="myBtn" title="Back to top">Top</button>
+        <p>Copyright 2021 lidu</p>
+    </footer>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+</html>

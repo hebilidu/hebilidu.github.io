@@ -1,0 +1,253 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"backgrou",
+				"background-color\tproperty"
+			],
+			[
+				"i",
+				"img\tTag"
+			],
+			[
+				"font-",
+				"font-weight\tproperty"
+			],
+			[
+				"te",
+				"text-align\tproperty"
+			],
+			[
+				"text",
+				"text-transform\tproperty"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"w",
+				"width\tproperty"
+			],
+			[
+				"bo",
+				"border\tproperty"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"text-",
+				"text-align\tproperty"
+			],
+			[
+				"inli",
+				"inline-block\tdisplay"
+			],
+			[
+				"back",
+				"background-size\tproperty"
+			],
+			[
+				"c",
+				"color\tproperty"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"fo",
+				"footer\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/lidu/Development/GitHub/di/Bootcamp.Prep/MyITMuseum/index.html",
+		"/Users/lidu/Development/GitHub/di/Bootcamp.Prep/MyITMuseum/style.css",
+		"/Users/lidu/Development/GitHub/di/Bootcamp.Prep/MyITMuseum/htaccess",
+		"/Users/lidu/Development/GitHub/di/Bootcamp.Prep/MyITMuseum/newpage.html",
+		"/Users/lidu/Development/GitHub/di/Bootcamp.Prep/MyITMuseum/CSSversion.html",
+		"/Users/lidu/Development/GitHub/di/Bootcamp.Prep/MyITMuseum/register.html",
+		"/Users/lidu/Development/GitHub/di/Bootcamp.Prep/CSS/style2.css",
+		"/Users/lidu/Development/GitHub/di/Bootcamp.Prep/CSS/login.html",
+		"/Users/lidu/Development/GitHub/di/Bootcamp.Prep/CSS/style.css",
+		"/Users/lidu/Development/GitHub/di/Bootcamp.Prep/CSS/about.html",
+		"/Users/lidu/Development/GitHub/di/Bootcamp.Prep/CSS/index.html",
+		"/Users/lidu/Development/GitHub/di/Bootcamp.Prep/MyITMuseum/withCSS",
+		"/Users/lidu/Development/GitHub/di/Bootcamp.Prep/HTML5ADV/register.html",
+		"/Users/lidu/Development/GitHub/di/Bootcamp.Prep/HTML5ADV/newpage.html",
+		"/Users/lidu/Development/GitHub/di/Bootcamp.Prep/HTML5ADV/index.html",
+		"/Users/lidu/Development/GitHub/di/Bootcamp.Prep/HTML5/newpage.html",
+		"/Users/lidu/Development/GitHub/di/Bootcamp.Prep/HTML5/newpage,html",
+		"/Users/lidu/Development/GitHub/di/Bootcamp.Prep/HTML5/index.html",
+		"/Users/lidu/Development/GitHub/di/newpage.html",
+		"/Users/lidu/Development/GitHub/di/index.html",
+		"/Users/lidu/Library/Application Support/Sublime Merge/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 232.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

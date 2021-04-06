@@ -1,0 +1,38 @@
+.container-1 {
+    border-style: solid none solid none;
+    border-width: 0.5px;
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+}
+
+.container-V {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.container-H {
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container-V div,
+.container-H div {
+    width: 70px;
+    height: 70px;
+    border-style: solid;
+    border-width: 0.9px;
+    background-color: yellow;
+}
+
+.container-V div {
+    margin: 3px 0px;
+}
+
+.container-H div {
+    margin: 0px 30px;
+}

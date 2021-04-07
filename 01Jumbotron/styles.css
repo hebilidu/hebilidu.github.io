@@ -1,0 +1,24 @@
+body {
+    margin-top: 60px;
+}
+
+h6 {
+    font-size: 0.7em;
+}
+
+.form-control::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: lightpink;
+    opacity: 0.5;
+    /* Firefox */
+}
+
+.form-control:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: lightpink;
+}
+
+.form-control::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: lightpink;
+}

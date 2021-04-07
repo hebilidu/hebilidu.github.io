@@ -1,0 +1,11 @@
+body {
+    margin-top: 10px;
+}
+
+h6 {
+    font-size: 0.8em;
+}
+
+#override-Favorites {
+    background-color: lightsteelblue;
+}

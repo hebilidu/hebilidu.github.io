@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("avenger01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 0px;
+    /*position: relative;*/
+    min-height: 100vh;
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+    color: white;
+}
+
+.content-without-footer {
+    padding-bottom: 2rem;
+    /* Footer height */
+}
+
+header,
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    font-size: 0.8em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+    /* Footer height */
+}
+
+ul {
+    background-color: black;
+    color: white;
+    margin: 0px 0px;
+    text-align: left;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    padding: .5em;
+}
+
+.middle {
+    /*text-align: right;*/
+    position: relative;
+}
+
+.name {
+    position: absolute;
+    top: 15%;
+    right: 8%;
+    font-weight: bolder;
+    font-size: 2.3em;
+}
+
+.photo02 {
+    position: absolute;
+    top: 100%;
+    margin: 10px 0 0 10px;
+}
+
+.textblock {
+    width: 250px;
+    color: white;
+    background-color: hsla(290, 60%, 70%, 0.3);
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 10px 0 0 10px;
+}
+
+.stroke-text {
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: white;
+}
+
+
+/*------------------------------------------
+  Responsive Grid Media Queries - 1280, 1024, 768, 480
+   1280-1024   - desktop (default grid)
+   1024-768    - tablet landscape
+   768-480     - tablet 
+   480-less    - phone landscape & smaller
+--------------------------------------------*/
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    .textblock {
+        color: white;
+        background-color: hsla(180, 59%, 70%, 0.034);
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    .textblock {
+        color: red;
+        background-color: hsla(86, 59%, 70%, 0.034);
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .textblock {
+        color: green;
+        background-color: hsla(286, 59%, 70%, 0.034);
+    }
+}
+
+@media all and (max-width: 480px) {
+    .textblock {
+        color: yellow;
+        background-color: hsla(244, 37%, 31%, 0.836);
+    }
+}

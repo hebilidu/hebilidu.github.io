@@ -1,0 +1,106 @@
+* {
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    margin: 0;
+    min-width: 25%;
+    max-width: 75%;
+    min-height: 100%;
+    background-color: crimson;
+    border-radius: 5em;
+    display: flex;
+    flex-direction: column;
+}
+
+#top {
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+#addZone {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    border: none;
+    min-width: 25%;
+    max-width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    ;
+}
+
+.addBtn {
+    padding: 10px;
+    width: 4em;
+    background: #d9d9d9;
+    color: #555;
+    text-align: center;
+    font-size: 1em;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+}
+
+.addBtn:hover {
+    background-color: #bbb;
+}
+
+ul {
+    min-width: 300px;
+    margin: 2em;
+    padding: 1em;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ul li:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+ul li:hover {
+    background: #ddd;
+}
+
+ul li.checked {
+    text-decoration: line-through;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+    background-color: #f44336;
+    color: white;
+}

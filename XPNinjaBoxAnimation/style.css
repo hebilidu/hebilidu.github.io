@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    margin: 0px 0px;
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+}
+
+#boxInit {
+    background-color: rgb(127, 206, 193);
+    color: aquamarine;
+    text-align: center;
+    cursor: pointer;
+}
+
+#plus {
+    font-size: xx-large;
+    vertical-align: middle;
+    line-height: 80px;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+}

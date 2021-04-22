@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 10px;
+}
+
+
+/* Toggling to fullscreen - Nothing to do with the exercise. Just for fun */
+
+#top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    border: 3px solid green;
+    border-radius: 1em;
+    color: white;
+    background-color: rgb(68, 60, 60);
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    margin: .3em;
+    padding: -2em;
+    cursor: pointer;
+}
+
+
+/* I've tweaked some of the originally provided style */
+
+.planet {
+    width: 150px;
+    height: 6em;
+    text-align: center;
+    padding: 10px;
+    /* position: relative; */
+}
+
+.moon {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background: grey;
+    /* position: absolute; */
+}

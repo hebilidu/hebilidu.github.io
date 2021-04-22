@@ -1,0 +1,43 @@
+section {
+    background-color: grey;
+    width: max-content;
+    border-radius: 1em;
+    border-color: lightcyan;
+    border-style: solid;
+    padding: 1em;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: white;
+    border-radius: 5px;
+    border-color: lightcyan;
+    border-style: solid;
+    width: 70px;
+    height: 70px;
+    margin: 2px;
+}
+
+#display {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+.digit {
+    background-color: green;
+}
+
+.op {
+    background-color: salmon;
+}
+
+.reset {
+    width: 147px;
+    background-color: mediumslateblue;
+}
+
+.clear {
+    width: 147px;
+    background-color: red;
+}

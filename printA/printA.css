@@ -1,0 +1,46 @@
+* {
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    margin: 0;
+    min-width: 25%;
+    max-width: 75%;
+    min-height: 100%;
+    background-color: crimson;
+    border-radius: 5em;
+    display: flex;
+    flex-direction: column;
+}
+
+#top {
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pix {
+    height: 40px;
+    width: 25px;
+    margin: 1px 2px;
+    background-color: black;
+    color: red;
+    text-align: center;
+    padding-top: 0.3em;
+    font-size: 2em;
+}

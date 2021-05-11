@@ -1,0 +1,50 @@
+* {
+    font-family: Arial;
+}
+
+body {
+    background-image: url("Drumset.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 0px;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 0px;
+    color: white;
+}
+
+h2 {
+    font-size: 20px;
+    line-height: 0px;
+    color: yellow;
+}
+
+#container {
+    height: 94vh;
+    width: 96%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#kbrd {
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.key {
+    height: 100px;
+    width: 100px;
+    background: grey;
+    border: 3px solid yellow;
+    text-align: center;
+    margin: 5px;
+    opacity: 0.8;
+}

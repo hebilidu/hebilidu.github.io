@@ -1,0 +1,190 @@
+* {
+    font-family: Lucida;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+#upper {
+    display: flex;
+    flex-flow: row;
+    align-items: flex-end;
+    top: 110px;
+    overflow: hidden;
+}
+
+#roof {
+    height: 5vh;
+    width: 30vw;
+    margin-left: auto;
+    border-top-left-radius: 50%;
+    background-color: darkslateblue;
+}
+
+#cabin {
+    height: 45vh;
+    width: 22vw;
+    margin-left: auto;
+    background-color: darkslateblue;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#wind_bck {
+    height: 15vh;
+    width: 12vw;
+    background-color: white;
+    padding: 10px;
+}
+
+#wind-frt {
+    height: 15vh;
+    width: 15vw;
+    background-color: white;
+}
+
+#floor {
+    height: 7vh;
+    width: 30vw;
+    background-color: rgb(63, 60, 84);
+    overflow: hidden;
+}
+
+#toplayer {
+    display: flex;
+    flex-flow: row;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+#soupape {
+    height: 75px;
+    width: 75px;
+    background-color: red;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+}
+
+#bell {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+}
+
+#chimney {
+    display: flex;
+    flex-direction: column;
+}
+
+#trapez {
+    border-style: solid;
+    border-color: transparent transparent red transparent;
+    border-width: 0 50px 50px 50px;
+    height: 0;
+    width: 100px;
+    box-sizing: content-box;
+    position: relative;
+    margin: 40px 0 100px 0;
+    align-self: center;
+}
+
+#trapez:after {
+    content: "";
+    position: absolute;
+    top: 50px;
+    left: -50px;
+    width: 50px;
+    height: 0;
+    border-style: solid;
+    border-color: red transparent transparent transparent;
+    border-width: 100px 75px 0 75px;
+    align-self: center;
+}
+
+#rect {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    align-self: center;
+}
+
+#cylinder {
+    height: 30vh;
+    width: 45vw;
+    background-color: rgb(63, 60, 84);
+    border-top-right-radius: 12%;
+    border-bottom-right-radius: 12%;
+}
+
+#lower {
+    width: 85vw;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.group {
+    display: flex;
+    flex-flow: row;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.large {
+    height: 230px;
+    width: 230px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    overflow: visible;
+}
+
+.small {
+    height: 115px;
+    width: 115px;
+    background-color: green;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.small,
+.large {
+    transform: rotate(360deg);
+    animation: anim 1.5s infinite linear;
+}
+
+@keyframes anim {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+.smok {
+    height: 22vh;
+    width: 15vw;
+    margin-left: 55vw;
+    margin-bottom: -6vh;
+    opacity: 1;
+    animation: fade 2s infinite linear;
+}
+
+@keyframes fade {
+    0%,
+    100% {
+        opacity: 0
+    }
+    50% {
+        opacity: 1
+    }
+}
